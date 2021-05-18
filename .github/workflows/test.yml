@@ -10,4 +10,4 @@ jobs:
       with:
         url: "https://gitlab.com"
         token: ${{ secrets.TOKEN }}
-        project_id: 26731450
+        project_id: ${{ secrets.PROJECT_ID }}
