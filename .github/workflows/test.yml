@@ -10,4 +10,5 @@ jobs:
       with:
         token: ${{ secrets.TOKEN }}
         project_id: ${{ secrets.PROJECT_ID }}
+        ref: master
         debug: true
