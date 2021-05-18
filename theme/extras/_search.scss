@@ -1,0 +1,59 @@
+.it-search-wrapper {
+  .search-link {
+    cursor: pointer;
+  }
+}
+
+#search-modal {
+  .modal-header {
+    flex-shrink: 0;
+
+    button.close {
+      display: none;
+    }
+
+    .modal-title {
+      width: 100%;
+    }
+  }
+
+  .modal-title {
+    .modal-title-centered {
+      flex: 1;
+      text-align: center;
+      text-transform: capitalize;
+    }
+  }
+
+  .nav-tabs {
+    .nav-item {
+      a.nav-link {
+        width: 100%;
+      }
+    }
+  }
+
+  .group-col.columns {
+    columns: 2;
+  }
+}
+
+.search-results-wrapper {
+  .card.card-teaser {
+    height: 100%;
+
+    .card-body {
+      max-width: 100%;
+    }
+  }
+
+  .ordering-widget {
+    @media (max-width: 991px) {
+      .bootstrap-select-wrapper {
+        label[for='search-sort-on'] {
+          display: none;
+        }
+      }
+    }
+  }
+}

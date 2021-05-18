@@ -1,0 +1,95 @@
+$docs-section-margin: 3em;
+.contenttype-cartellamodulistica {
+  section.modulistica {
+    .documents-section,
+    .document-row-section {
+      margin-bottom: $docs-section-margin;
+
+      &.document-row-section {
+        margin-bottom: 0;
+      }
+
+      h3 + br {
+        display: none;
+      }
+
+      .items {
+        padding: 0 1.5em;
+
+        .items-header {
+          display: flex;
+          align-items: flex-end;
+          justify-content: space-between;
+
+          .downloads {
+            font-size: 0.8em;
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+        }
+      }
+
+      .doc-row {
+        padding: 1em 0;
+        border-bottom: 1px solid $neutral-1-a2;
+
+        &.has-children {
+          padding-bottom: 1em;
+        }
+
+        .doc {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0.4em 0;
+
+          .title {
+            font-size: 1.2em;
+            font-weight: 500;
+          }
+
+          &.modulo {
+            .title {
+              color: $neutral-2-b5;
+              font-size: 1em;
+              font-weight: normal;
+            }
+          }
+
+          .downloads {
+            display: flex;
+            justify-content: center;
+
+            a {
+              width: 2.4em;
+              text-align: center;
+
+              svg {
+                font-size: 1.3em;
+              }
+            }
+          }
+
+          @media (max-width: #{map-get($grid-breakpoints, md)}) {
+            flex-wrap: wrap;
+            align-items: unset;
+            justify-content: unset;
+
+            .title,
+            .downloads {
+              flex: 1 1 100%;
+              justify-content: flex-end;
+              a {
+                width: 2em;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .document-row-section + .documents-section {
+      margin-top: $docs-section-margin;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.public-ui {
+  .btn-tertiary {
+    @include button-variant($tertiary, $tertiary-text);
+
+    svg {
+      fill: $tertiary-text;
+    }
+
+    &:hover,
+    &:active {
+      svg {
+        fill: $tertiary-text-hover;
+      }
+    }
+  }
+
+  a.btn-tertiary {
+    color: $tertiary-text !important;
+  }
+
+  .btn-outline-tertiary {
+    @include button-outline-variant($tertiary);
+  }
+}

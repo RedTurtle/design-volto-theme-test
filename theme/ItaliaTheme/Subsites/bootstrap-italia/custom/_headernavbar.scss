@@ -1,0 +1,8 @@
+.it-header-wrapper {
+  //Tablet horizontal / small desktop
+  @media (min-width: #{map-get($grid-breakpoints, lg)}) {
+    .it-header-navbar-wrapper {
+      background: $subsite-primary;
+    }
+  }
+}

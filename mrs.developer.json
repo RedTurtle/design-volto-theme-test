@@ -1,0 +1,93 @@
+{
+  "volto-rss-block": {
+    "package": "@italia/addons/volto-rss-block",
+    "path": "src",
+    "https": "https://github.com/redturtle/volto-rss-block.git",
+    "url": "git@github.com:redturtle/volto-rss-block.git",
+    "tag": "v2.0.0"
+  },
+  "volto-cookie-banner": {
+    "package": "@italia/addons/volto-cookie-banner",
+    "path": "src",
+    "https": "https://github.com/collective/volto-cookie-banner.git",
+    "url": "git@github.com:collective/volto-cookie-banner.git",
+    "tag": "v2.0.0"
+  },
+  "volto-multilingual-widget": {
+    "package": "@italia/addons/volto-multilingual-widget",
+    "path": "src",
+    "https": "https://github.com/collective/volto-multilingual-widget.git",
+    "url": "git@github.com:collective/volto-multilingual-widget.git",
+    "tag": "v2.1.0"
+  },
+  "volto-venue": {
+    "package": "@italia/addons/volto-venue",
+    "path": "src",
+    "https": "https://github.com/collective/volto-venue.git",
+    "url": "git@github.com:collective/volto-venue.git",
+    "tag": "v3.0.1"
+  },
+  "volto-subblocks": {
+    "package": "@italia/addons/volto-subblocks",
+    "path": "src",
+    "https": "https://github.com/collective/volto-subblocks.git",
+    "url": "git@github.com:collective/volto-subblocks.git",
+    "tag": "v1.1.0"
+  },
+  "volto-dropdownmenu": {
+    "package": "@italia/addons/volto-dropdownmenu",
+    "path": "src",
+    "https": "https://github.com/collective/volto-dropdownmenu.git",
+    "url": "git@github.com:collective/volto-dropdownmenu.git",
+    "tag": "v2.2.5"
+  },
+  "volto-subsites": {
+    "package": "@italia/addons/volto-subsites",
+    "path": "src",
+    "https": "https://github.com/collective/volto-subsites.git",
+    "url": "git@github.com:collective/volto-subsites.git",
+    "tag": "v2.0.1"
+  },
+  "volto-social-settings": {
+    "package": "@italia/addons/volto-social-settings",
+    "path": "src",
+    "https": "https://github.com/collective/volto-social-settings.git",
+    "url": "git@github.com:collective/volto-social-settings.git",
+    "tag": "v2.1.0"
+  },
+  "volto-editablefooter": {
+    "package": "@italia/addons/volto-editablefooter",
+    "path": "src",
+    "https": "https://github.com/RedTurtle/volto-editablefooter.git",
+    "url": "git@github.com:RedTurtle/volto-editablefooter.git",
+    "tag": "v3.1.3"
+  },
+  "volto-blocks-widget": {
+    "package": "@italia/addons/volto-blocks-widget",
+    "path": "src",
+    "https": "https://github.com/collective/volto-blocks-widget.git",
+    "url": "git@github.com:collective/volto-blocks-widget.git",
+    "tag":"v2.0.1"
+  },
+  "volto-google-analytics": {
+    "package": "@italia/addons/volto-google-analytics",
+    "path": "src",
+    "https": "https://github.com/collective/volto-google-analytics.git",
+    "url": "git@github.com:collective/volto-google-analytics.git",
+    "tag": "v1.1.0"
+  },
+  "volto-secondarymenu": {
+    "package": "@italia/addons/volto-secondarymenu",
+    "path": "src",
+    "https": "https://github.com/collective/volto-secondarymenu.git",
+    "url": "git@github.com:collective/volto-secondarymenu.git",
+    "tag": "v2.1.4"
+  },
+  "volto-form-block": {
+    "package": "@italia/addons/volto-form-block",
+    "path": "src",
+    "https": "https://github.com/collective/volto-form-block.git",
+    "url": "git@github.com:collective/volto-form-block.git",
+    "tag": "v1.5.0"
+  }
+}

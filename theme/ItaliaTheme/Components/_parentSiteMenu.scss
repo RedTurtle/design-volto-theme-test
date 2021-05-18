@@ -1,0 +1,13 @@
+body.subsite {
+  .parent-site-menu {
+    font-size: 0.778em;
+
+    li.nav-item {
+      border-right: 1px solid $primary-text;
+
+      a.nav-link {
+        color: $primary-text;
+      }
+    }
+  }
+}
