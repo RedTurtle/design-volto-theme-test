@@ -8,7 +8,6 @@ jobs:
     - name: trigger Job
       uses: appleboy/gitlab-ci-action@master
       with:
-        url: "https://gitlab.com"
         token: ${{ secrets.TOKEN }}
         project_id: ${{ secrets.PROJECT_ID }}
         debug: true
